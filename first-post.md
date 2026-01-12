@@ -1,6 +1,7 @@
 ---
 slug: first-post
-title: ブログを作ってみました。
+title: ブログを作ってみました
+description: こんにちはこんばんはおはようございます
 tags:
   - 雑談
 date: 2026-01-01
