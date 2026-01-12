@@ -1,5 +1,4 @@
 ---
-slug: replace-gpu
 title: GPUを換装したら定期的に強制再起動するようになったときの対処法
 description: 換装した感想ですが
 tags:

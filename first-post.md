@@ -1,5 +1,4 @@
 ---
-slug: first-post
 title: ブログを作ってみました
 description: こんにちはこんばんはおはようございます
 tags:
