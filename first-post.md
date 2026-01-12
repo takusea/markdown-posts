@@ -15,9 +15,11 @@ date: 2026-01-01
 
 ## 技術スタック
 
-基礎のフレームワークとしてSolidJS、SSG用にSolidStartを使用しています。コードの管理はGitHub。
+基礎のフレームワークとして[SolidJS](https://www.solidjs.com/)、SSG用に[SolidStart](https://start.solidjs.com/)を使用しています。コードの管理はGitHub。
 
-ブログの記事作成はMarkdownで行い、Remark/Rehypeとそのプラグイン群でHTMLに変換し表示しています。また、記事用のMarkdownはObsidianで書いています。そのため、Gitのリポジトリは記事Markdown専用リポジトリと、SolidJSのコード用のリポジトリに分けています。
+ブログの記事作成はMarkdownで行い、[unified](https://unifiedjs.com/)（Remark/Rehype）とそのプラグイン群でHTMLに変換し表示しています。
+
+また、記事用のMarkdownは[Obsidian](https://obsidian.md/)で書いています。ObsidianにはgitのプラグインがあるのでそこからリポジトリにPushしています。その都合でGitのリポジトリは記事Markdown専用リポジトリと、SolidJSのコード用のリポジトリに分かれる構造になっています。
 
 デプロイはGitHub ActionsでGitHub Pagesに対して行っています。コード側のリポジトリにSSGでデプロイを行うアクションを配置し、記事側のリポジトリが更新された際にそのアクションをトリガーするアクションを実行するようにしています。より詳しくはまた記事を書くかも。
 
