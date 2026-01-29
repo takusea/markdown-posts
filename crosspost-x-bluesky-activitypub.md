@@ -1,9 +1,8 @@
 ---
 title: XとBluesky（ATプロトコル圏）とActivityPub圏に同時投稿したい
-description: 意味もなくWWWに情報量を増やす
+date: 2026-01-13
 tags:
   - SNS
-date: 2026-01-13
 ---
 
 ## やたらSNSが増える
@@ -36,7 +35,7 @@ XとBlueskyの投稿は、Bufferから同時投稿で行うようにしました
 
 YouTube Shortも同時投稿できるらしいですが、これは使いどころはわからず。YouTubeならコミュニティの方を投稿できるようにしてほしい。
 
-## BlueskyとActivityPub → Bridgy Fedで投稿を同期
+### BlueskyとActivityPub → Bridgy Fedで投稿を同期
 
 Blueskyに投稿したポストを、Bridgy Fedを使いActivityPubへ投稿を同期することでクロスポストを実現！
 
